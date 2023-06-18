@@ -4,7 +4,7 @@ In this work, we present novel findings by demonstrating the potential to enhanc
 Our adversary simply measures the execution time of an algorithm applied to post-process the predictions of the ML model under attack.
 We focus our investigation on leakage in the NMS algorithm, which is ubiquitous in object detectors. We demonstrate attackers against the YOLOv3 detector, that use timing to evade object detection with adversarial examples or perform membership inference.
 ## Evasion Attack Using Timing Leakage
-![](https://github.com/dudi709/Adversarial-Implications-Variable-Time-Inference/blob/main/doc/algo.png)
+![](https://github.com/dudi709/Adversarial-Implications-Variable-Time-Inference/blob/main/doc/algo.png | width=150)
 <br/>
 Our adversary wishes to evade detection via performing adversarial perturbations on an image.
 
