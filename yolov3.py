@@ -55,7 +55,7 @@ def decode_netout(netout, anchors, obj_thresh, net_h, net_w):
         for b in range(nb_box):
             # 4th element is objectness score
             objectness = netout[int(row)][int(col)][b][4]
-            if (objectness.all() <= obj_thresh): continue
+            if (objectness <= obj_thresh).all(): continue
             # first 4 elements are x, y, w, and h
             x, y, w, h = netout[int(row)][int(col)][b][:4]
             x = (col + x) / grid_w  # center position, unit: image width
