@@ -1,12 +1,12 @@
 # The Adversarial Implications of Variable-Time Inference
-This project contains the implementation of our ??? 2023 paper [link](https://www.google.com).<br/>
+<!-- This project contains the implementation of our ??? 2023 paper [link](https://www.google.com).<br/> -->
 In this work, we present novel findings by demonstrating the potential to enhance a decision-based attack.
 Our adversary simply measures the execution time of an algorithm applied to post-process the predictions of the ML model under attack.
 We focus our investigation on leakage in the NMS algorithm, which is ubiquitous in object detectors. We demonstrate attackers against the YOLOv3 detector, that use timing to evade object detection with adversarial examples or perform membership inference.
 ## Evasion Attack Using Timing Leakage
 <img src="https://github.com/dudi709/Adversarial-Implications-Variable-Time-Inference/blob/main/doc/algo.png" width="300">
 <br/>
-Our adversary wishes to evade detection via performing adversarial perturbations on an image.
+Our adversary wishes to evade detection by performing adversarial perturbations on an image.
 
 ### Install
 
@@ -43,16 +43,16 @@ mkdir YOLO/model
 ```
 mkdir COCO
 ```
-2.2. Place the images you want to attack into `COCO/`. You can select any image you want with the png or jpg extension (to add more options you need to make code changes to the main file). Our recommendation, work with images from [COCO-MS](https://cocodataset.org/#download) dataset.
+2.2. Place the images you want to attack into `COCO/`. You can select any image you want with the png or jpg extension (to add more options you need to make code changes to the main file). Our recommendation, work with images from the [COCO-MS](https://cocodataset.org/#download) dataset.
 
 3. Run demo:
 ```
 python main.py
 ```
-After running the program you can find your outputs under `time_attack_samples/` directory.
+After running the program you can find your outputs under the `time_attack_samples/` directory.
 
-### Citation
-If you find the project useful for your research, please cite:
+<!-- ### Citation
+If you find the project useful for your research, please cite the following:
 ```
 @article{???,
   title={The Adversarial Implications of Variable-Time Inference},
@@ -60,4 +60,4 @@ If you find the project useful for your research, please cite:
   journal={????},
   year={???}
 }
-```
+``` -->
