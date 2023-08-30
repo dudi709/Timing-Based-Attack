@@ -61,3 +61,6 @@ If you find the project useful for your research, please cite the following:
   year={???}
 }
 ``` -->
+
+### License
+Distributed under the MIT License. See the [LICENSE](/LICENSE.txt) for more information.
