@@ -51,16 +51,17 @@ python main.py
 ```
 After running the program you can find your outputs under the `time_attack_samples/` directory.
 
-<!-- ### Citation
-If you find the project useful for your research, please cite the following:
+### Citations
+If you find our work useful in your research, please consider citing:
 ```
-@article{???,
+@inproceedings{biton2023adversarial,
   title={The Adversarial Implications of Variable-Time Inference},
-  author={????},
-  journal={????},
-  year={???}
+  author={Biton, Dudi and Misra, Aditi and Levy, Efrat and Kotak, Jaidip and Bitton, Ron and Schuster, Roei and Papernot, Nicolas and Elovici, Yuval and Nassi, Ben},
+  booktitle={Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security},
+  pages={103--114},
+  year={2023}
 }
-``` -->
+```
 
 ### License
 Distributed under the MIT License. See the [LICENSE](/LICENSE.txt) for more information.
