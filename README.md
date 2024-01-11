@@ -1,5 +1,6 @@
 # The Adversarial Implications of Variable-Time Inference
-<!-- This project contains the implementation of our ??? 2023 paper [link](https://www.google.com).<br/> -->
+Official Implementation of the paper [The Adversarial Implications of Variable-Time Inference](https://dl.acm.org/doi/abs/10.1145/3605764.3623912).
+<br/>
 This work presents novel findings by demonstrating the potential to enhance a decision-based attack.
 Our adversary simply measures the execution time of an algorithm applied to post-process the predictions of the ML model under attack.
 We focus our investigation on leakage in the NMS algorithm, ubiquitous in object detectors. We demonstrate attackers against the YOLOv3 detector, that use timing to evade object detection with adversarial examples.
